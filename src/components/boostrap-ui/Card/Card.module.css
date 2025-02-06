@@ -1,0 +1,31 @@
+.card {
+  border: 1px solid var(--grey-300, #ddd);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--primary-color, #333);
+}
+
+.cardText {
+  font-size: 1rem;
+  color: var(--grey-700, #555);
+}
+
+.cardButton {
+  background-color: var(--primary-color, #007bff);
+  border: none;
+}
+
+.cardButton:hover {
+  background-color: var(--primary-dark, #0056b3);
+}

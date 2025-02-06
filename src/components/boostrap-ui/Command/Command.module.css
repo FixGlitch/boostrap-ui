@@ -1,0 +1,50 @@
+.commandContainer {
+  padding: 16px;
+  border: 1px solid var(--grey-300, #ced4da);
+  border-radius: 8px;
+  background-color: var(--white, #fff);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  margin-bottom: 12px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-color, #212529);
+}
+
+.inputGroup {
+  margin-bottom: 16px;
+}
+
+.commandInput {
+  border: 1px solid var(--grey-300, #ced4da);
+  border-radius: 4px;
+}
+
+.commandInput:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.25rem var(--primary-light, rgba(13, 110, 253, 0.25));
+}
+
+.commandButton {
+  font-size: 0.875rem;
+  padding: 6px 12px;
+}
+
+.commandList {
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid var(--grey-300, #ced4da);
+  border-radius: 4px;
+}
+
+.commandItem {
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+.commandItem:hover {
+  background-color: var(--primary-light, #e7f1ff);
+  color: var(--primary, #0d6efd);
+}

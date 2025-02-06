@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #222;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navItem {
+  margin-left: 20px;
+}
+
+.navLink {
+  color: #fff !important;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.navLink:hover {
+  color: #ff6347 !important;
+}
+
+.navbar-toggler {
+  border-color: #ff6347;
+}
+
+.navbar-toggler-icon {
+  background-color: #ff6347;
+}

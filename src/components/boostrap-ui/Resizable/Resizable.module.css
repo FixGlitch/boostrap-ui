@@ -1,0 +1,27 @@
+.resizableContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  user-select: none;
+  outline: none;
+}
+
+.panelContent {
+  background: #f8f9fa;
+  border: 1px solid #ccc;
+  padding: 15px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.resizer {
+  width: 10px;
+  background: #ddd;
+  cursor: ew-resize;
+  height: 100%;
+}
+
+.resizer:active {
+  background: #aaa;
+}

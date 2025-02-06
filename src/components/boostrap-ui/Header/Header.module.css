@@ -1,0 +1,19 @@
+.header {
+  position: static;
+  top: 0;
+  left: 250px;
+  right: 0;
+  height: 72px;
+  background-color: var(--black-800);
+  border-bottom: 2px solid var(--black-700);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  z-index: 1000;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+}

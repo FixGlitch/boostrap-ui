@@ -1,0 +1,64 @@
+.combobox {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-color, #212529);
+}
+
+.dropdownToggle {
+  width: 100%;
+  text-align: left;
+  background-color: var(--white, #fff);
+  color: var(--text-color, #212529);
+  border: 1px solid var(--grey-300, #ced4da);
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+.dropdownToggle:focus {
+  box-shadow: 0 0 0 0.25rem var(--primary-light, rgba(13, 110, 253, 0.25));
+}
+
+.dropdownMenu {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.searchInput {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  border: 1px solid var(--grey-300, #ced4da);
+  border-radius: 4px;
+}
+
+.searchInput:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.25rem var(--primary-light, rgba(13, 110, 253, 0.25));
+}
+
+.options {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropdownItem {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.dropdownItem:hover {
+  background-color: var(--primary-light, #e7f1ff);
+}
+
+.noOptions {
+  color: var(--grey-500, #6c757d);
+  text-align: center;
+}

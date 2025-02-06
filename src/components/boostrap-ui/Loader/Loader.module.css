@@ -1,0 +1,47 @@
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.spinner {
+  border-style: solid;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  border-top-color: transparent;
+}
+
+.spinner-sm {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-width: 0.2rem;
+}
+
+.spinner-lg {
+  width: 4rem;
+  height: 4rem;
+  border-width: 0.4rem;
+}
+
+.spinner-primary {
+  border-color: blue;
+}
+
+.spinner-danger {
+  border-color: red;
+}
+
+.spinner-success {
+  border-color: green;
+}
+
+.spinner-warning {
+  border-color: yellow;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,25 @@
+.menubar {
+  background-color: #333;
+}
+
+.brand {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navItem {
+  margin-left: 15px;
+}
+
+.navLink {
+  color: #fff !important;
+  font-size: 1rem;
+}
+
+.navLink:hover {
+  color: #f8f9fa !important;
+}
+
+.navLink.active {
+  color: #007bff !important;
+}

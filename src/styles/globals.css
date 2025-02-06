@@ -1,0 +1,47 @@
+:root {
+  --white-50: #ffffff;
+  --white-100: #f0f0f0;
+  --white-200: #e0e0e0;
+  --white-300: #d0d0d0;
+  --white-400: #c0c0c0;
+  --white-500: #b0b0b0;
+  --white-600: #a0a0a0;
+
+  --black-50: #909090;
+  --black-100: #808080;
+  --black-200: #707070;
+  --black-300: #606060;
+  --black-400: #505050;
+  --black-500: #404040;
+  --black-600: #303030;
+  --black-700: #202020;
+  --black-800: #101010;
+  --black-900: #000000;
+
+  --error: #e74c3c;
+  --success: #27ae60;
+  --warning: #f39c12;
+
+  --primary-font: "Inter", sans-serif;
+  --secondary-font: "Space Grotesk", sans-serif;
+}
+
+html,
+body {
+  background-color: var(--black-900) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--primary-font);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}

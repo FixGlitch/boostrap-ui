@@ -1,0 +1,30 @@
+.popover {
+  max-width: 300px;
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #ff6347;
+}
+
+.popover-header {
+  background-color: #ff6347;
+  color: #fff;
+  font-weight: bold;
+}
+
+.popover-body {
+  padding: 10px;
+  color: #ccc;
+}
+
+.triggerButton {
+  background-color: #ff6347;
+  border-color: #ff6347;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+.triggerButton:hover {
+  background-color: #d55d3e;
+  border-color: #d55d3e;
+}

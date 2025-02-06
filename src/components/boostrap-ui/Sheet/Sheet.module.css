@@ -1,0 +1,8 @@
+.sheet .modal-dialog {
+  max-width: 600px;
+  margin: auto;
+}
+
+.sheet .modal-body {
+  padding: 20px;
+}

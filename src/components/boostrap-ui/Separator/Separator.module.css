@@ -1,0 +1,17 @@
+.separator {
+  display: flex;
+  align-items: center;
+}
+
+.separator hr {
+  flex-grow: 1;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.label {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  color: #888;
+}

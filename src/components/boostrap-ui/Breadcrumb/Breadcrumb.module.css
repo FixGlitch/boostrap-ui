@@ -1,0 +1,25 @@
+.breadcrumb {
+  background-color: transparent; /* Fondo transparente por defecto */
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.breadcrumbItem {
+  color: var(
+    --primary-color,
+    #007bff
+  ); /* Usa un color personalizado o el color primario */
+  text-decoration: none;
+}
+
+.breadcrumbItem:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbItem.active {
+  color: var(--grey-500, #6c757d); /* Color para el elemento activo */
+  pointer-events: none;
+  text-decoration: none;
+}

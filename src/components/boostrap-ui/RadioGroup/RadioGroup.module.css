@@ -1,0 +1,15 @@
+.radioGroup {
+  margin-bottom: 1rem;
+}
+
+.radioItem {
+  margin-bottom: 0.5rem;
+}
+
+.radioItem label {
+  font-weight: 400;
+}
+
+.radioItem input {
+  margin-right: 10px;
+}

@@ -1,0 +1,19 @@
+.drawer {
+  background-color: var(--background-color, #ffffff);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 1rem;
+  color: var(--text-color, #6c757d);
+}
+
+.footer {
+  padding: 1rem;
+  background-color: var(--footer-bg, #f8f9fa);
+  border-top: 1px solid var(--border-color, #e9ecef);
+}

@@ -1,0 +1,155 @@
+/** Base Styles **/
+.text {
+  font-weight: 400;
+  margin: 0;
+}
+
+.text a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.text a:hover {
+  font-weight: 600;
+}
+
+/** Font Families **/
+.variant {
+  font-family: var(--secondary-font);
+}
+
+/** Font Weights **/
+.extraBold {
+  font-weight: 800;
+}
+.bold {
+  font-weight: 700;
+}
+.semiBold {
+  font-weight: 600;
+}
+.medium {
+  font-weight: 500;
+}
+.regular {
+  font-weight: 400;
+}
+
+/** Font Sizes **/
+.xxl {
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1.68px;
+}
+.xl {
+  font-size: 40px;
+  line-height: 56px;
+}
+.lg {
+  font-size: 48px;
+  line-height: 56px;
+}
+.md {
+  font-size: 32px;
+  line-height: 36px;
+}
+.sm {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.4px;
+}
+.xs {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.24px;
+}
+
+/** Width **/
+.fullWidth {
+  width: 100%;
+}
+
+/** Colors **/
+.primary {
+  color: var(--primary-color);
+}
+.primary-dark {
+  color: var(--primary-dark);
+}
+.black {
+  color: var(--black-900);
+}
+.black-100 {
+  color: var(--black-100);
+}
+.grey-100 {
+  color: var(--white-100);
+}
+.grey-200 {
+  color: var(--white-200);
+}
+.grey-700 {
+  color: var(--black-700);
+}
+.grey-700-opacity {
+  color: var(--black-700);
+  opacity: 0.6;
+}
+.white {
+  color: var(--white-50);
+}
+.white-60 {
+  color: rgba(255, 255, 255, 0.6);
+}
+.error {
+  color: var(--error);
+}
+
+/** Text Alignment **/
+.justify {
+  text-align: justify;
+}
+.center {
+  text-align: center;
+}
+
+/** Responsive Typography **/
+@media (max-width: 1199px) {
+  .xxl {
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .xl {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .lg {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .md {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .sm {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .xs {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .xxl,
+  .xl {
+    font-size: 24px;
+  }
+  .lg {
+    font-size: 20px;
+  }
+  .sm {
+    font-size: 14px;
+  }
+}

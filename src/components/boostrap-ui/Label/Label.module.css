@@ -1,0 +1,49 @@
+.label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.label.small {
+  font-size: 0.875rem;
+}
+
+.label.medium {
+  font-size: 1rem;
+}
+
+.label.large {
+  font-size: 1.25rem;
+}
+
+.label.primary {
+  color: #0d6efd;
+}
+
+.label.secondary {
+  color: #6c757d;
+}
+
+.label.success {
+  color: #198754;
+}
+
+.label.danger {
+  color: #dc3545;
+}
+
+.label.warning {
+  color: #ffc107;
+}
+
+.label.info {
+  color: #0dcaf0;
+}
+
+.label.light {
+  color: #f8f9fa;
+}
+
+.label.dark {
+  color: #212529;
+}

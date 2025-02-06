@@ -1,0 +1,20 @@
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.selectControl {
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.selectControl:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.my-custom-select {
+  background-color: #f8f9fa;
+  border-color: #007bff;
+}

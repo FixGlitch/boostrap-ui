@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92.5vh;
+  background-color: #121212;
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(
+    135deg,
+    #e0e0e0,
+    #b3b3b3,
+    #808080,
+    #b3b3b3,
+    #e0e0e0
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 4px 4px 10px rgba(255, 255, 255, 0.5),
+    -4px -4px 10px rgba(0, 0, 0, 0.5);
+  animation: shine 2s infinite alternate;
+}
+
+@keyframes shine {
+  0% {
+    text-shadow: 4px 4px 10px rgba(255, 255, 255, 0.5),
+      -4px -4px 10px rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    text-shadow: 8px 8px 20px rgba(255, 255, 255, 0.8),
+      -8px -8px 20px rgba(0, 0, 0, 0.8);
+  }
+}

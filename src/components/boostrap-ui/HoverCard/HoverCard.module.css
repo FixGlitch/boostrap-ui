@@ -1,0 +1,29 @@
+.card {
+  border: 1px solid var(--grey-300, #ced4da);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.text {
+  color: var(--text-color, #6c757d);
+}
+
+.tooltip {
+  font-size: 0.9rem;
+  background-color: var(--primary-color, #007bff);
+  color: white;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}

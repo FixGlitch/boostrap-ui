@@ -1,0 +1,207 @@
+/* Base Styles */
+.accordion {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  background-color: var(--white-50);
+  transition: box-shadow 0.3s ease;
+  height: fit-content;
+}
+
+/* Size Variants */
+.none {
+  padding: 0px !important;
+}
+
+.xxs {
+  padding: 2px;
+}
+
+.xs {
+  padding: 4px;
+}
+
+.sm {
+  padding: 8px;
+}
+
+.md {
+  padding: 16px;
+}
+
+.lg {
+  padding: 24px;
+}
+
+/* Card */
+.card {
+  border: 1px solid var(--white-300);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.cardHeader {
+  background-color: var(--white-100);
+  padding: 16px 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+
+.cardHeader:hover {
+  background-color: var(--white-200);
+}
+
+.cardHeader:focus {
+  outline: 2px solid var(--primary);
+}
+
+/* Header Content */
+.headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+
+.icon {
+  transition: transform 0.2s ease;
+  transform: rotate(0deg);
+}
+
+.cardHeader.active .icon {
+  transform: rotate(180deg);
+}
+
+/* Body Section */
+.body {
+  font-size: 15px;
+  color: var(--black-500);
+  padding: 20px;
+  background-color: var(--white-50);
+  max-height: auto;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.body.active {
+  max-height: 1000px;
+}
+
+.bodyContent {
+  display: flex;
+  gap: 20px;
+}
+
+.imageColumn {
+  display: flex;
+}
+
+.image {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+/* Footer Section */
+.footer {
+  padding: 16px;
+  background-color: var(--white-100);
+  border-top: 1px solid var(--white-300);
+  font-size: 13px;
+  color: var(--black-400);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* Variants */
+.default {
+  border: 1px solid var(--white-300);
+}
+
+.primary {
+  border: 1px solid var(--primary);
+  background-color: var(--white-100);
+}
+
+.secondary {
+  border: 1px solid var(--secondary);
+  background-color: var(--white-200);
+}
+
+/* Full Width */
+.fullWidth {
+  width: 100%;
+}
+
+/* Custom Styles */
+.customAccordion {
+  border: 2px solid var(--white-300);
+  border-radius: 12px;
+  padding: 24px;
+  background-color: var(--white-50);
+}
+
+.customCard {
+  margin-bottom: 12px;
+  background-color: var(--white-100);
+  border-radius: 12px;
+}
+
+.customHeader {
+  background-color: var(--white-200);
+  padding: 16px 20px;
+  font-weight: bold;
+  border-bottom: 1px solid var(--white-300);
+}
+
+.customBody {
+  background-color: var(--white-50);
+  padding: 20px;
+  font-size: 15px;
+  color: var(--black-600);
+}
+
+.customToggle {
+  color: var(--primary);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.customToggle:hover {
+  color: var(--black-600);
+}
+
+/* Accessibility Improvements */
+.accordionButton {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: inherit;
+  font-weight: inherit;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+}
+
+.accordionButton:focus {
+  outline: 2px solid var(--primary);
+}
+
+.accordionButton:active {
+  background-color: var(--white-300);
+}

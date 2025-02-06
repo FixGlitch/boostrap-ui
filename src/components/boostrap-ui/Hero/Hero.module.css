@@ -1,0 +1,109 @@
+/* Base Styles */
+.heroContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  height: 706px;
+  z-index: 2;
+}
+
+.heroContainer p {
+  padding-inline: 20px;
+}
+
+.overlay {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(2, 0, 21, 0), #020015);
+  height: 334px;
+  z-index: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 3;
+  gap: 32px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.titleWrapper {
+  margin-bottom: 16px;
+}
+
+.titleText {
+  font-size: 72px;
+  letter-spacing: -2px;
+  line-height: 76px;
+  font-weight: 500;
+  font-family: var(--secondary-font);
+  background: var(--title-primary-gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.titleText strong {
+  font-size: 72px;
+  letter-spacing: -2px;
+  line-height: 76px;
+  font-weight: 500;
+  font-family: var(--secondary-font);
+  background: var(--title-secondary-gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .heroContainer {
+    background-position: right bottom;
+    background-size: 900px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding-top: 6em;
+    height: 573px;
+    margin-bottom: 40px;
+  }
+
+  .titleText {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .titleText strong {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .heroContainer {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin-top: 4em;
+    height: 706px;
+  }
+}
+
+@media (min-width: 992px) {
+  .heroContainer {
+    margin-top: 5em;
+  }
+}
